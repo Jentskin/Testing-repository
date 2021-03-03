@@ -16,7 +16,7 @@ public class MorseCodeTest {
     public void setUp() { morseCode = new MorseCode(); }
 
     @Test
-    public void shouldEncryptASimpleStringToMorseCode(){
+    public void willEncryptASimpleStringToMorseCode(){
         String result = morseCode.morseCodeTranslations.get("A");
 
         Assert.assertEquals(result, ".- ");
